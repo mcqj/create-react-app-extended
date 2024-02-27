@@ -1,0 +1,19 @@
+{
+  "name": "create-react-app-extended",
+  "version": "0.0.1",
+  "description": "Generator for an extended React App using esbuild",
+  "type": "module",
+  "author": "John Mc Quillan",
+  "bin": "src/index.js",
+  "files": [
+    "src",
+    "templates"
+  ],
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "@mcqj/npm-generator-core": "^0.0.1-alpha1",
+    "ejs": "^3.1.9",
+    "pluralize": "^8.0.0"
+  }
+}

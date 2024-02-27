@@ -1,0 +1,7 @@
+# dependencies
+/node_modules
+
+# editor / ide temp files
+*.sw?
+# build
+/dist

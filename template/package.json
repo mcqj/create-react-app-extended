@@ -1,0 +1,28 @@
+{
+  "name": "<%= name %>",
+  "version": "0.0.1",
+  "description": "<%= description %>",
+  "scripts": {
+    "serve": "node ./scripts/serve.mjs",
+    "build": "node ./scripts/build.mjs"
+  },
+  "pre-commit": [
+  ],
+  "keywords": [],
+  "author": "John Mc Quillan <john.mcq1llan@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.19.3",
+    "esbuild-plugin-polyfill-node": "^0.3.0",
+    "react-router-dom": "^6.22.1"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.15.11",
+    "@mui/material": "^5.15.11",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
